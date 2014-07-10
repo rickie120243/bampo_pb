@@ -1,0 +1,12 @@
+先開檔
+把檔案變成字串陣列
+arr=fs.readFileSync(filename,"utf8").split("\n") 
+console.log("total line:",arr.length)
+for{
+每一行是否有pb
+  所在行數
+  pb的id
+每一行是否有BM
+  line offset=所在行數-剛剛出現之pb所在行數+1
+  輸出BM ID=pb id+ line offset 
+}
